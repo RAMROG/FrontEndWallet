@@ -10,7 +10,7 @@ import Equipo from './screens/Ventanas-de-Pagina/Equipo/Equipo';
 import RecuperacionPassword from './screens/Ventanas-de-Pagina/RecuperacionPassword/RecuperacionPassword';
 
 //Ventanas de Usuario
-import Dashboard from './dashboard.js';
+import Dashboard from './screens/Ventanas-de-Usuario/Main/dashboard.js';
 import Main from './screens/Ventanas-de-Usuario/Main/Main';
 import Configuracion from './screens/Ventanas-de-Usuario/Configuracion/Configuracion';
 import Estadistica from './screens/Ventanas-de-Usuario/Estadistica/Estadistica';
