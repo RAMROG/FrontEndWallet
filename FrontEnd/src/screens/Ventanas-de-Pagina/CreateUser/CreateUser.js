@@ -64,38 +64,6 @@ export default function CreateUser() {
         e.preventDefault();  
         auth.createUserWithEmailAndPassword(email,password);
         alert("Usuario Registrado");
-
-        //Validacion:
-        {/*
-        if (name.trim() != "" || last_name.trim() != "" || email.trim() != "" || password.trim() != "" ) {
-        
-            const json_data = {
-                'name': name,
-                'last_name': last_name,
-                'email': email,
-                'password': password
-            };
-
-            const res = await fetch(`${API}/create-user`, {
-                method: "POST",
-                headers: {"Content-Type": "application/json"},
-                body: JSON.stringify(json_data),
-            });
-
-            const data = await res.json();
-            if (data.result == true){
-                history.push({
-                    pathname: './Authentication',
-                    state: { mail: email }
-                  });
-            }
-            else{
-                alert("Usuario o contraseña no permitidos");
-            }
-        }
-        else{
-            alert("no puede dejar campos vacios");
-        }*/}
     };
 
   return (
@@ -181,7 +149,6 @@ export default function CreateUser() {
           <Grid container justifyContent="flex-end">
             <Grid item>
               <Link to="/login" variant="body2" >
-                Ya tienes cuenta? Inicia Sesion
               </Link>
             </Grid>
           </Grid>

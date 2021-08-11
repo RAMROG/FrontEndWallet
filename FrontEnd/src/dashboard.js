@@ -10,8 +10,6 @@ import Orders from './Components/MovList/movlist';
 import Menu from './Components/Menu/Menu';
 
 
-const API = process.env.REACT_APP_API;
-
 
 function Copyright() {
   return (
@@ -110,42 +108,8 @@ export default function Dashboard() {
   const classes = useStyles();
   const [informacion, setInformacion] = useState([]);
   const session_id = localStorage.getItem("Session_id");
-  //const [array, setArray] = useState([]);
-  const dataDeposits = async () => {
-    const json_data = {
-        'id_user' : session_id        
-      };
-      const res = await fetch(`${API}/get-dashboard-data`, {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(json_data),
-      });
-
-      const data = await res.json();
-
-      if (data) {
-        //console.log(data)
-        setInformacion(data);
-      }else{
-        console.log("error al mandar informacion")
-      }
-  };
-  useEffect(() => {
-    dataDeposits();
-  }, [])
   
-  console.log("============INFO==============",informacion[0], "====================INFORMACION");
- /* const balance = informacion[0].Balance;
-  const totalIngreso = informacion[0].totalIngreso;
-  const totalEgreso = informacion[0].totalEgreso;
 
-  console.log("==============INFO==========",balance," ",totalEgreso," ",totalIngreso)
- */
-  //const array = informacion[0];
-  //console.log(array, "===============ARRAYYYYYYYYYYYY","===========BALANCE========",array.Balance)
-  //console.log(informacion,"=============INFORMACION")
-  //console.log(array.Balance, "==========BALANCE")
-  //setArray(informacion[0]);
   return (
       <div className={classes.root}>
         <Menu>

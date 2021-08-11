@@ -158,7 +158,7 @@ export default function Menu() {
   const cerrarSesion = async (e) => {
     e.preventDefault();
     localStorage.clear();
-    window.location.href = "http://localhost:3000/login";
+    window.location='/';
   };
 
   const fixedHeightPaper = clsx(classes.paper, classes.fixedHeight);

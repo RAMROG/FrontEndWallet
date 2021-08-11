@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.40f71047.chunk.css",
+    "main.js": "/static/js/main.03394f2a.chunk.js",
+    "main.js.map": "/static/js/main.03394f2a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.11f320ca.js",
+    "runtime-main.js.map": "/static/js/runtime-main.11f320ca.js.map",
+    "static/js/2.b1ae777d.chunk.js": "/static/js/2.b1ae777d.chunk.js",
+    "static/js/2.b1ae777d.chunk.js.map": "/static/js/2.b1ae777d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.40f71047.chunk.css.map": "/static/css/main.40f71047.chunk.css.map",
+    "static/js/2.b1ae777d.chunk.js.LICENSE.txt": "/static/js/2.b1ae777d.chunk.js.LICENSE.txt",
+    "static/media/finanzas.50c5ff39.jpg": "/static/media/finanzas.50c5ff39.jpg",
+    "static/media/finanzas1.97564463.jpg": "/static/media/finanzas1.97564463.jpg",
+    "static/media/global.css": "/static/media/hero-bg.cbd9749c.jpg",
+    "static/media/profile-img.23977f23.jpg": "/static/media/profile-img.23977f23.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.11f320ca.js",
+    "static/js/2.b1ae777d.chunk.js",
+    "static/css/main.40f71047.chunk.css",
+    "static/js/main.03394f2a.chunk.js"
+  ]
+}
